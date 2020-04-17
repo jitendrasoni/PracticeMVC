@@ -1,0 +1,7 @@
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Singleton\bin\Debug\Singleton.exe.config
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Singleton\bin\Debug\Singleton.exe
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Singleton\bin\Debug\Singleton.pdb
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Singleton\obj\Debug\Singleton.exe
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Singleton\obj\Debug\Singleton.pdb
