@@ -1,0 +1,13 @@
+﻿Why We need to use Automapper -
+
+Reference - https://automapper.org/
+
+Why use AutoMapper?
+Mapping code is boring. Testing mapping code is even more boring. AutoMapper provides 
+simple configuration of types, as well as simple testing of mappings. The real question may
+be “why use object-object mapping?” Mapping can occur in many places in an application,
+but mostly in the boundaries between layers, such as between the UI/Domain layers, or 
+Service/Domain layers. Concerns of one layer often conflict with concerns in another, 
+so object-object mapping leads to segregated models, where concerns for each layer can 
+affect only types in that layer.
+

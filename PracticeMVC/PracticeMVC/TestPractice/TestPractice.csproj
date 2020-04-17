@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C4E8622-24BE-4406-ABC1-BEA1944CBD87}</ProjectGuid>
+    <ProjectGuid>{BC9D6C53-2119-4F61-B132-78872A49A268}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Automapper</RootNamespace>
-    <AssemblyName>Automapper</AssemblyName>
+    <RootNamespace>TestPractice</RootNamespace>
+    <AssemblyName>TestPractice</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,12 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AutoMapper, Version=5.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\AutoMapper.5.1.1\lib\net45\AutoMapper.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,24 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationLayer\ProductNameDTO.cs" />
-    <Compile Include="Example2.cs" />
-    <Compile Include="Example1.cs" />
-    <Compile Include="Example3.cs" />
-    <Compile Include="FoundationLayer\ProductDetails.cs" />
-    <Compile Include="FoundationLayer\ProductRepository.cs" />
+    <Compile Include="Backup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Help.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Profile\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
