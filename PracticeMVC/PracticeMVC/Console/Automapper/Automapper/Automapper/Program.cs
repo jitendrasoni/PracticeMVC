@@ -13,20 +13,19 @@ using Automapper.FoundationLayer;
 namespace Automapper
 {
 
-        class Program
+    class Program
+    {
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                // Sample Automapper all field mapping default
-               //Example1.Automapper();
-               // Sample Automapper all field mapping with class and property name
-              // Example2.Automapper();
-               // Mapping through the profile
-               Example3.AutoMapper();
+            // Sample Automapper all field mapping default
+            //Example1.Automapper();
+            // Sample Automapper all field mapping with class and property name
+            // Example2.Automapper();
+            // Mapping through the profile
+            Example3.AutoMapper();
 
         }
 
-        }
     }
+}
 
-  
