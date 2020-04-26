@@ -1,0 +1,10 @@
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\bin\Debug\Automapper.exe.config
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\bin\Debug\Automapper.exe
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\bin\Debug\Automapper.pdb
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\obj\Debug\Automapper.csprojAssemblyReference.cache
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\obj\Debug\Automapper.csproj.CoreCompileInputs.cache
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\obj\Debug\Automapper.exe
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\obj\Debug\Automapper.pdb
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\bin\Debug\AutoMapper.dll
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\bin\Debug\AutoMapper.xml
+C:\Jitendra\PracticeMVC\PracticeMVC\PracticeMVC\Console\Automapper\Automapper\Automapper\obj\Debug\Automapper.csproj.CopyComplete
