@@ -4,12 +4,16 @@
     {
         static void Main(string[] args)
         {
-            // Experience Level 0-1 year
-            // Wrong SRP and basi SRP
-            Cases.Case1.CustomerRegistration.ExecuteAllVersion();
+            //// Experience Level 0-1 year
+            //Cases.Case1.CustomerRegistration.ExecuteWrongVersion();
+            //Cases.Case1.CustomerRegistration.ExecutVersion1();
             
-            // Experience level 1-3
-            Cases.Case2.CustomerRegistration.ExecuteAllVersion();
+            //// Experience level 2-3
+            //Cases.Case2.CustomerRegistration.ExecuteWrongVersion();
+            //Cases.Case2.CustomerRegistration.ExecuteVersio2();
+
+
+            Cases.Case3.CustomerRegistration.ExecuteVersio3();
         }
     }
 }

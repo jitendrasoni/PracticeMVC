@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6884AD4C-470A-4CE2-A580-D0DC5D0CD56B}</ProjectGuid>
+    <ProjectGuid>{E629B433-135D-4B5B-8B3A-663FB31EEF23}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SRP</RootNamespace>
-    <AssemblyName>SRP</AssemblyName>
+    <RootNamespace>OCP</RootNamespace>
+    <AssemblyName>OCP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,37 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cases\Case3\CustomerRegistration.cs" />
-    <Compile Include="Cases\Case3\Right\Models\Customer.cs" />
-    <Compile Include="Cases\Case3\Right\Models\ICustomer.cs" />
-    <Compile Include="Cases\Case3\Right\Models\Staff.cs" />
-    <Compile Include="Cases\Case3\Right\Services\INotification.cs" />
-    <Compile Include="Cases\Case3\Right\Services\IRegister.cs" />
-    <Compile Include="Cases\Case3\Right\Services\Notification.cs" />
-    <Compile Include="Cases\Case3\Right\Services\Register.cs" />
-    <Compile Include="Cases\Case3\Wrong\Registration.cs" />
-    <Compile Include="Cases\Case3\Wrong\RegistrationUtility.cs" />
-    <Compile Include="Cases\Case2\CustomerRegistration.cs" />
-    <Compile Include="Cases\Case2\Right\Models\Customer.cs" />
-    <Compile Include="Cases\Case2\Right\Models\ICustomer.cs" />
-    <Compile Include="Cases\Case2\Right\Services\INotification.cs" />
-    <Compile Include="Cases\Case2\Right\Services\IRegister.cs" />
-    <Compile Include="Cases\Case2\Right\Services\Notification.cs" />
-    <Compile Include="Cases\Case2\Right\Services\Register.cs" />
-    <Compile Include="Cases\Case2\Wrong\Registration.cs" />
-    <Compile Include="Cases\Case2\Wrong\RegistrationUtility.cs" />
-    <Compile Include="Cases\Case1\CustomerRegistration.cs" />
-    <Compile Include="Cases\Case1\Right\Registration.cs" />
-    <Compile Include="Cases\Case1\Right\RegistrationUtility.cs" />
+    <Compile Include="Cases\Case1\AccountRegistration.cs" />
+    <Compile Include="Cases\Case1\Right\BalanceBase.cs" />
+    <Compile Include="Cases\Case1\Right\Corporate.cs" />
+    <Compile Include="Cases\Case1\Right\Salary.cs" />
+    <Compile Include="Cases\Case1\Right\Saving.cs" />
+    <Compile Include="Cases\Case1\Wrong\Account.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Cases\Case1\Wrong\Registration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basic\" />
+    <Folder Include="Cases\Case2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

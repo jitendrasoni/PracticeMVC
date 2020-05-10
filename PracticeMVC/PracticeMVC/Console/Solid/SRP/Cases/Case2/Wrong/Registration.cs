@@ -1,6 +1,7 @@
-﻿using System;
+﻿using SRP.Cases.Case1.Right;
+using System;
 
-namespace SRP.Wrong
+namespace SRP.Cases.Case2.Wrong
 {
 
     public class Registration
@@ -11,25 +12,13 @@ namespace SRP.Wrong
 
         public void Register()
         {
-            ValidateEmailAddress();
+            RegistrationUtility registerUtility = new RegistrationUtility();
+            registerUtility.ValidateEmailAddress(EmailAddress);
             Console.WriteLine($"I'm calling from Class {this.GetType().Name}");
             Console.WriteLine($"Successfully Registered {Name}");
-            SendEmailMessage();
+            registerUtility.SendEmailMessage(Message);
             Console.ReadLine();
         }
 
-        public void SendEmailMessage()
-        {
-            Console.WriteLine($"I'm calling from Class {this.GetType().Name}");
-            Console.WriteLine($"Email succesfully sent to {EmailAddress}");
-            Console.ReadLine();
-        }
-
-        public void ValidateEmailAddress()
-        {
-            Console.WriteLine($"I'm calling from Class {this.GetType().Name}");
-            Console.WriteLine($"Validation {EmailAddress?.Contains("@")}");
-
-        }
     }
 }

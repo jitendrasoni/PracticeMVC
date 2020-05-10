@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SRP.Cases.Case2.Right
+namespace SRP.Cases.Case2.Wrong
 {
     class RegistrationUtility
     {

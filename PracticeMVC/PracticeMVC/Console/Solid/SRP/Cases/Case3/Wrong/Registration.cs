@@ -1,7 +1,7 @@
 ﻿using SRP.Cases.Case1.Right;
 using System;
 
-namespace SRP.Cases.Case2.Right
+namespace SRP.Cases.Case3.Wrong
 {
 
     public class Registration
