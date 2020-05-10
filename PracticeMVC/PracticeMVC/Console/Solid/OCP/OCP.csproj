@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cases\Case1\AccountRegistration.cs" />
+    <Compile Include="Cases\Case1\Right\BalanceBase.cs" />
+    <Compile Include="Cases\Case1\Right\Corporate.cs" />
+    <Compile Include="Cases\Case1\Right\Salary.cs" />
+    <Compile Include="Cases\Case1\Right\Saving.cs" />
+    <Compile Include="Cases\Case1\Wrong\Account.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Basic\" />
+    <Folder Include="Cases\Case2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

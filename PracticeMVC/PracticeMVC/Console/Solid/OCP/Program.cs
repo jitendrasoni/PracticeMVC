@@ -10,6 +10,9 @@ namespace OCP
     {
         static void Main(string[] args)
         {
+           // OCP.Cases.Case1.AccountRegistration.ExecuteWrongVersion();
+
+            OCP.Cases.Case1.AccountRegistration.ExecutVersion1();
         }
     }
 }
