@@ -55,6 +55,7 @@
     <Compile Include="FoundationLayer\ProductRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Profile\SimpleProfile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -63,8 +64,6 @@
   <ItemGroup>
     <Content Include="Help.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Profile\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
