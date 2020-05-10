@@ -43,6 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cases\Case3\CustomerRegistration.cs" />
+    <Compile Include="Cases\Case3\Right\Models\Customer.cs" />
+    <Compile Include="Cases\Case3\Right\Models\ICustomer.cs" />
+    <Compile Include="Cases\Case3\Right\Models\Staff.cs" />
+    <Compile Include="Cases\Case3\Right\Services\INotification.cs" />
+    <Compile Include="Cases\Case3\Right\Services\IRegister.cs" />
+    <Compile Include="Cases\Case3\Right\Services\Notification.cs" />
+    <Compile Include="Cases\Case3\Right\Services\Register.cs" />
+    <Compile Include="Cases\Case3\Wrong\Registration.cs" />
+    <Compile Include="Cases\Case3\Wrong\RegistrationUtility.cs" />
+    <Compile Include="Cases\Case2\CustomerRegistration.cs" />
+    <Compile Include="Cases\Case2\Right\Models\Customer.cs" />
+    <Compile Include="Cases\Case2\Right\Models\ICustomer.cs" />
+    <Compile Include="Cases\Case2\Right\Services\INotification.cs" />
+    <Compile Include="Cases\Case2\Right\Services\IRegister.cs" />
+    <Compile Include="Cases\Case2\Right\Services\Notification.cs" />
+    <Compile Include="Cases\Case2\Right\Services\Register.cs" />
+    <Compile Include="Cases\Case2\Wrong\Registration.cs" />
+    <Compile Include="Cases\Case2\Wrong\RegistrationUtility.cs" />
     <Compile Include="Cases\Case1\CustomerRegistration.cs" />
     <Compile Include="Cases\Case1\Right\Registration.cs" />
     <Compile Include="Cases\Case1\Right\RegistrationUtility.cs" />
