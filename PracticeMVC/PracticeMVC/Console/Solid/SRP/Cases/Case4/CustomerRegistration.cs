@@ -23,7 +23,7 @@ namespace SRP.Cases.Case4
             {
                 EmailAddress = "test@test.com",
                 Name = "First Customer!",
-                Message = "Test message"
+                Message = "Test message",
             };
 
             ICustomer staff = new Right.Models.Staff
@@ -36,6 +36,18 @@ namespace SRP.Cases.Case4
            IRegister<ICustomer> registerCustomer = new Register<ICustomer>();
            registerCustomer.RegisterInstance(customer);
            registerCustomer.RegisterInstance(staff);
+
+
+
+            ICustomerExtenstion customerExtenstion = new Right.Models.CustomerExtenstion
+            {
+                EmailAddress = "test@test.com",
+                Name = "First Staff!",
+                Message = "Test message",
+                NameExtenstion ="extenstion Name"
+            };
+            IRegister<ICustomerExtenstion> registerCustomerExtenstion = new Register<ICustomerExtenstion>();
+            registerCustomerExtenstion.RegisterInstance(customerExtenstion);
         }
     }
 }

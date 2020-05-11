@@ -12,4 +12,13 @@ namespace SRP.Cases.Case4.Right.Models
         public string EmailAddress { get; set; }
         public string Message { get; set; }
     }
+
+    public class CustomerExtenstion : ICustomerExtenstion
+    {
+        public string Name { get; set; }
+        public string EmailAddress { get; set; }
+        public string Message { get; set; }
+
+        public string NameExtenstion { get; set; }
+    }
 }

@@ -6,4 +6,10 @@
         string Message { get; set; }
         string Name { get; set; }
     }
+
+    public interface ICustomerExtenstion : ICustomer
+    {
+     
+        string NameExtenstion { get; set; }
+    }
 }
