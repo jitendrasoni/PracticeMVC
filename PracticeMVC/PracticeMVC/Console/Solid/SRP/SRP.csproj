@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cases\Case4\CustomerRegistration.cs" />
+    <Compile Include="Cases\Case4\Right\Models\Customer.cs" />
+    <Compile Include="Cases\Case4\Right\Models\ICustomer.cs" />
+    <Compile Include="Cases\Case4\Right\Models\Staff.cs" />
+    <Compile Include="Cases\Case4\Right\Services\INotification.cs" />
+    <Compile Include="Cases\Case4\Right\Services\IRegister.cs" />
+    <Compile Include="Cases\Case4\Right\Services\Notification.cs" />
+    <Compile Include="Cases\Case4\Right\Services\Register.cs" />
     <Compile Include="Cases\Case3\CustomerRegistration.cs" />
     <Compile Include="Cases\Case3\Right\Models\Customer.cs" />
     <Compile Include="Cases\Case3\Right\Models\ICustomer.cs" />
