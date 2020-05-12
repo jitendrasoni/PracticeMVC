@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{52A91882-460B-41FB-9046-56B4E9F7D0C3}</ProjectGuid>
+    <ProjectGuid>{44CE1361-38DB-4943-8C79-8D7616E30323}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LSP</RootNamespace>
-    <AssemblyName>LSP</AssemblyName>
+    <RootNamespace>ISP</RootNamespace>
+    <AssemblyName>ISP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cases\Case1\CustomerDiscount.cs" />
-    <Compile Include="Cases\Case1\Right\Fruit.cs" />
-    <Compile Include="Cases\Case1\Wrong\Apple.cs" />
+    <Compile Include="Cases\Case1\PrinterExample.cs" />
+    <Compile Include="Cases\Case1\Right\HPLaserJetPrinter.cs" />
+    <Compile Include="Cases\Case1\Right\IPrinterTasks.cs" />
+    <Compile Include="Cases\Case1\Right\LiquidInkjetPrinter.cs" />
+    <Compile Include="Cases\Case1\Wrong\HPLaserJetPrinter.cs" />
+    <Compile Include="Cases\Case1\Wrong\IPrinterTasks.cs" />
+    <Compile Include="Cases\Case1\Wrong\LiquidInkjetPrinter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Basic\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

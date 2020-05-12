@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{52A91882-460B-41FB-9046-56B4E9F7D0C3}</ProjectGuid>
+    <ProjectGuid>{6FA2DF47-A38F-41AC-A2F8-4CA64AA517D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LSP</RootNamespace>
-    <AssemblyName>LSP</AssemblyName>
+    <RootNamespace>DIP</RootNamespace>
+    <AssemblyName>DIP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cases\Case1\CustomerDiscount.cs" />
-    <Compile Include="Cases\Case1\Right\Fruit.cs" />
-    <Compile Include="Cases\Case1\Wrong\Apple.cs" />
+    <Compile Include="Cases\Case1\Right\Employee.cs" />
+    <Compile Include="Cases\Case1\Right\EmployeeManager.cs" />
+    <Compile Include="Cases\Case1\Right\EmployeeStatistics.cs" />
+    <Compile Include="Cases\Case1\Right\IEmployeeSearchable.cs" />
+    <Compile Include="Cases\Case1\Wrong\Employee.cs" />
+    <Compile Include="Cases\Case1\Wrong\EmployeeManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Basic\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
