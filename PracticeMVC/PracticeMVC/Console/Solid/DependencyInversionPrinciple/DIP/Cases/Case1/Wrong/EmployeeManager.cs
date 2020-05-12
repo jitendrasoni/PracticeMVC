@@ -28,6 +28,7 @@ namespace DIP.Cases.Case1.Wrong
 
         public int CountFemaleManagers()
         {
+            return 0;
             //logic goes here
         }
     }

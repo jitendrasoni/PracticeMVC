@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DIP.Cases.Case1.Wrong
+namespace DIP.Cases.Case1.Right
 {
     public class Employee
     {

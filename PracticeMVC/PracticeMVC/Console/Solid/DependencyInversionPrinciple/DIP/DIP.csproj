@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cases\Case1\Right\Employee.cs" />
+    <Compile Include="Cases\Case1\Right\EmployeeManager.cs" />
+    <Compile Include="Cases\Case1\Right\EmployeeStatistics.cs" />
+    <Compile Include="Cases\Case1\Right\IEmployeeSearchable.cs" />
+    <Compile Include="Cases\Case1\Wrong\Employee.cs" />
+    <Compile Include="Cases\Case1\Wrong\EmployeeManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
