@@ -49,6 +49,11 @@
     <Compile Include="Cases\Case1\Right\Salary.cs" />
     <Compile Include="Cases\Case1\Right\Saving.cs" />
     <Compile Include="Cases\Case1\Wrong\Account.cs" />
+    <Compile Include="Cases\Case2\AccountDiscount.cs" />
+    <Compile Include="Cases\Case2\Right\Customer.cs" />
+    <Compile Include="Cases\Case2\Right\goldCustomer.cs" />
+    <Compile Include="Cases\Case2\Right\SilverCustomer.cs" />
+    <Compile Include="Cases\Case2\Wrong\Customer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basic\" />
-    <Folder Include="Cases\Case2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

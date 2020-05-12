@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OCP.Cases.Case2.Right
 {
-    class SilverCustomer
+    class SilverCustomer :Customer
     {
+        public override double getDiscount(double TotalSales)
+        {
+            return base.getDiscount(TotalSales) - 50;
+        }
     }
 }
