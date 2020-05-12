@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{44CE1361-38DB-4943-8C79-8D7616E30323}</ProjectGuid>
+    <ProjectGuid>{6FA2DF47-A38F-41AC-A2F8-4CA64AA517D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ISP</RootNamespace>
-    <AssemblyName>ISP</AssemblyName>
+    <RootNamespace>DIP</RootNamespace>
+    <AssemblyName>DIP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cases\Case1\PrinterExample.cs" />
-    <Compile Include="Cases\Case1\Right\HPLaserJetPrinter.cs" />
-    <Compile Include="Cases\Case1\Right\IPrinterTasks.cs" />
-    <Compile Include="Cases\Case1\Right\LiquidInkjetPrinter.cs" />
-    <Compile Include="Cases\Case1\Wrong\HPLaserJetPrinter.cs" />
-    <Compile Include="Cases\Case1\Wrong\IPrinterTasks.cs" />
-    <Compile Include="Cases\Case1\Wrong\LiquidInkjetPrinter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
