@@ -15,7 +15,11 @@ namespace LSP
         //that a derived class must be substitutable for its base class.
         static void Main(string[] args)
         {
-       
+            ///behavioral subtyping 
+            ///A type S is a behavioral subtype of a type T if each behavior allowed by the specification of S is also allowed by the specification of T. This requires, in particular, that for each method M of T,
+            ///the specification of M in S is stronger than the one in T.
+
+
         }
     }
 }
